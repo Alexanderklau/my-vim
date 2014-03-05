@@ -21,3 +21,4 @@ Installation:
    #ln -sf .vimrc ~/.vimrc
 7. you also need to install the ctag package if you have not installed it yet. on Linux Mint, you can simply just install ctag from the software manager
 8. then try 'vi test.pl'
+

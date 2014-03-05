@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/James_Zhu/SOFTWARE/PDK-9.1.1.295479-linux-64/pdk'
+let g:netrw_dirhist_2='/home/James_Zhu/TEST'
+let g:netrw_dirhist_3='/home/James_Zhu/PERL/myapp/myapp/views'
+let g:netrw_dirhist_4='/home/James_Zhu/PERL/myapp/myapp/bin'
+let g:netrw_dirhist_5='/home/James_Zhu/PERL/myapp/myapp/lib'
+let g:netrw_dirhist_6='/home/James_Zhu/PERL/myapp/myapp/environments'
+let g:netrw_dirhist_7='/'

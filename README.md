@@ -1,13 +1,13 @@
 my-vim
 ======
 
-including all .vim plugin, scripts.
+including many .vim plugin and scripts.
 
 This repo including the vim scripts and plugin for programming languages, like perl, c, C++, python, shell and so on.
 
 for example: if you create a new perl script, the script HEARER will be automatically generated.
 
-It's useful when you install a new machine, you dont have to download all kinds of vim plugins. Because this repo includes everyting you want for VIM.
+It's useful when you install a new machine, you dont have to download all kinds of vim plugins. Because this repo includes everyting you want.
 
 
 Installation:
@@ -21,7 +21,3 @@ Installation:
    #ln -sf .vimrc ~/.vimrc
 7. you also need to install the ctag package if you have not installed it yet. on Linux Mint, you can simply just install ctag from the software manager
 8. then try 'vi test.pl'
-
-  
-
-

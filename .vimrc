@@ -131,3 +131,4 @@ set sw=2
 set ts=2
 filetype indent on
 autocmd FileType python setlocal et sta sw=2 sts=2
+autocmd FileType bash setlocal et sta sw=2 sts=2

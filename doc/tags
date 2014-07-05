@@ -361,6 +361,7 @@ csupport-usage-gvim	csupport.txt	/*csupport-usage-gvim*
 csupport-usage-vim	csupport.txt	/*csupport-usage-vim*
 csupport-windows	csupport.txt	/*csupport-windows*
 csupport.txt	csupport.txt	/*csupport.txt*
+g:SuperTabClosePreviewOnPopupClose	supertab.txt	/*g:SuperTabClosePreviewOnPopupClose*
 g:SuperTabCompletionContexts	supertab.txt	/*g:SuperTabCompletionContexts*
 g:SuperTabContextDefaultCompletionType	supertab.txt	/*g:SuperTabContextDefaultCompletionType*
 g:SuperTabCrMapping	supertab.txt	/*g:SuperTabCrMapping*
@@ -539,6 +540,8 @@ perlsupport-windows	perlsupport.txt	/*perlsupport-windows*
 perlsupport-xterm	perlsupport.txt	/*perlsupport-xterm*
 perlsupport.txt	perlsupport.txt	/*perlsupport.txt*
 supertab	supertab.txt	/*supertab*
+supertab-closepreviewonpopupclose	supertab.txt	/*supertab-closepreviewonpopupclose*
+supertab-completionchaining	supertab.txt	/*supertab-completionchaining*
 supertab-completioncontexts	supertab.txt	/*supertab-completioncontexts*
 supertab-contextdefault	supertab.txt	/*supertab-contextdefault*
 supertab-contextdiscover	supertab.txt	/*supertab-contextdiscover*

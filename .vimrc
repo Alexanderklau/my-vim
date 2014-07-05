@@ -122,13 +122,18 @@ let Tlist_WinWidth = 40
 let Tlist_Compact_Format = 1
 
 
+let gswitchyntastic_enable_perl_checker = 1
+let gswitchyntastic_enable_python_checker = 1
+
+
 " For pydiction
 let g:pydiction_location = '/home/jzhu/.vim/pydiction-1.2.1/complete-dict'
 
 
 set nobackup
-set sw=2
-set ts=2
+set sw=4
+set ts=4
 filetype indent on
-autocmd FileType python setlocal et sta sw=2 sts=2
-autocmd FileType bash setlocal et sta sw=2 sts=2
+autocmd FileType python setlocal et sta sw=4 sts=4
+autocmd FileType bash setlocal et sta sw=4 sts=4
+execute pathogen#infect()

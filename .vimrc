@@ -136,4 +136,3 @@ set ts=4
 filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 autocmd FileType bash setlocal et sta sw=4 sts=4
-execute pathogen#infect()

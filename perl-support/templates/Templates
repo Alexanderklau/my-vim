@@ -4,11 +4,11 @@
 
 SetMacro( 'AUTHOR',      'James Zhu' )
 SetMacro( 'AUTHORREF',   'N/A' )
-SetMacro( 'COMPANY',     'Blizzard Entertainment' )
+SetMacro( 'COMPANY',     'JZ' )
 SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
-SetMacro( 'EMAIL',       'jzhu@blizzard.com' )
-SetMacro( 'LICENSE',     'Blizzard Internel Only' )
-SetMacro( 'ORGANIZATION','BONS CN' )
+SetMacro( 'EMAIL',       'zhujian0805@gmail.com' )
+SetMacro( 'LICENSE',     'James Zhu' )
+SetMacro( 'ORGANIZATION','JZ' )
 
 SetStyle( 'default' )
 

@@ -4,16 +4,6 @@ do {
 == Statements.for == map:sf, sc:f ==
 for ( my $<CURSOR>; ;  ) {
 <SPLIT>}
-
-== Statements.function == map:sfu, sc:f ==
-sub |?FUNCTION_NAME| {
-my  ($par1) = @_;
-my $subname = (caller(0))[3];
-
-return ;
-<SPLIT>
-} # ----------  end of subroutine |FUNCTION_NAME|  ----------
-
 == Statements.foreach == map:sfe, sc:f ==
 foreach my $<CURSOR> (  ) {
 <SPLIT>}
@@ -49,4 +39,12 @@ until ( <CURSOR> ) {
 == Statements.while == map:sw, sc:w ==
 while ( <CURSOR> ) {
 <SPLIT>}
+== Statements.given == map:sg, sc:g ==
+given ( <CURSOR> ) {
+	when () {}
+	when () {}
+	default {}
+}
+== Statements.when == map:swh, sc:w ==
+	when (<CURSOR>) {}
 == ENDTEMPLATE ==

@@ -19,6 +19,7 @@ Installation:
 5. git clone this repo
 6. you need to make a symbolic link for the .vimrc to your home directory
    #ln -sf .vimrc ~/.vimrc
+7. Make a symbolic link of .bashrc to your $HOME
+   #ln -sf .bashrc ~/.bashrc
 7. you also need to install the ctag package if you have not installed it yet. on Linux Mint, you can simply just install ctag from the software manager
 8. then try 'vi test.pl'
-

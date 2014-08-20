@@ -118,7 +118,7 @@ let Tlist_Show_Menu = 1
 let Tlist_Use_SingleClick = 1
 let Tlist_Enable_Fold_Column = 1
 let Tlist_Inc_Winwidth = 1
-let Tlist_WinWidth = 40
+let Tlist_WinWidth = 30
 let Tlist_Compact_Format = 1
 
 

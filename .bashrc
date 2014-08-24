@@ -88,7 +88,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias gitup='git add .; git commit -m "mod"; git push -u; git status'
+alias gitup='git diff; git add .; git commit -m "mod"; git push -u; git status'
 alias gitdn='git pull; git status'
 
 # Add an "alert" alias for long running commands.  Use like so:

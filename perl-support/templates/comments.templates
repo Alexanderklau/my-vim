@@ -27,7 +27,7 @@
 #     SEE ALSO: n/a
 #===============================================================================
 == Comments.file description pl == map:chpl, sc:d, start, noindent ==
-#!/usr/bin/env perl 
+#!/usr/bin/perl 
 #===============================================================================
 #
 #         FILE: |FILENAME|

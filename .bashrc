@@ -115,3 +115,4 @@ if ! shopt -oq posix; then
   fi
 fi
 export CHEATCOLORS=true
+export CHEATPATH=/usr/local/lib/python2.7/dist-packages/cheat/cheatsheets

@@ -13,13 +13,10 @@ It's useful when you install a new machine, you dont have to download all kinds 
 Installation:
 
 1. go to your home directory
-2. check if '.vim' directory exists
-3. create it if not exists
-4. go to .vim directory
-5. git clone this repo
-6. you need to make a symbolic link for the .vimrc to your home directory
+2. git clone this repo to .vim
+3. you need to make a symbolic link for the .vimrc to your home directory
    #ln -sf .vimrc ~/.vimrc
-7. Make a symbolic link of .bashrc to your $HOME
+4. Make a symbolic link of .bashrc to your $HOME
    #ln -sf .bashrc ~/.bashrc
-7. you also need to install the ctag package if you have not installed it yet. on Linux Mint, you can simply just install ctag from the software manager
-8. then try 'vi test.pl'
+5. you also need to install the ctag package if you have not installed it yet. on Linux Mint, you can simply just install ctag from the software manager
+6. then try 'vi test.pl'

@@ -65,17 +65,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Powerline setup
- set laststatus=2
- set term=xterm-256color
- set termencoding=utf-8
- set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
-" set guifont=Ubuntu\ Mono
- let g:Powerline_symbols = 'fancy'
-
-
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>

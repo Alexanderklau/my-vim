@@ -20,3 +20,6 @@ Installation:
    #ln -sf .bashrc ~/.bashrc
 5. you also need to install the ctag package if you have not installed it yet. on Linux Mint, you can simply just install ctag from the software manager
 6. then try 'vi test.pl'
+
+7. Installing powerline
+http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin

@@ -1,3 +1,9 @@
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+    
+set laststatus=2
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 

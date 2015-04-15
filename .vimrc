@@ -31,7 +31,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'https://github.com/Lokaltog/vim-powerline.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

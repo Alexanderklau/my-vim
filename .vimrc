@@ -1,3 +1,9 @@
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+" Always show statusline
+set laststatus=2
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
+
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
@@ -6,6 +12,12 @@ set laststatus=2
 
 set t_Co=256
 
+" Powerline setup
+ set laststatus=2
+ set term=xterm-256color
+ set termencoding=utf-8
+ set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
+" set guifont=Ubuntu\ Mono
 let g:Powerline_symbols = 'unicode'
 
 set nocompatible              " be iMproved, required

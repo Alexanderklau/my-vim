@@ -37,6 +37,10 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-pathogen'
 Plugin 'Lokaltog/powerline'
 Plugin 'klen/python-mode'
+Plugin 'vim-scripts/bash-support.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ervandew/supertab'
+Plugin 'scrooloose/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -175,15 +179,10 @@ let Tlist_Enable_Fold_Column = 1
 let Tlist_Inc_Winwidth = 1
 let Tlist_WinWidth = 30
 let Tlist_Compact_Format = 1
-
-
 let gswitchyntastic_enable_perl_checker = 1
 let gswitchyntastic_enable_python_checker = 1
-
-
 " For pydiction
 let g:pydiction_location = '/home/jzhu/.vim/pydiction-1.2.1/complete-dict'
-
 
 set nobackup
 set sw=4
@@ -191,4 +190,3 @@ set ts=4
 filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 autocmd FileType bash setlocal et sta sw=4 sts=4
-

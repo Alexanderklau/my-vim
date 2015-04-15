@@ -35,6 +35,8 @@ Plugin 'vim-perl/vim-perl'
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-pathogen'
+Plugin 'Lokaltog/powerline'
+Plugin 'klen/python-mode'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

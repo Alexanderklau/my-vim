@@ -4,6 +4,10 @@ python del powerline_setup
     
 set laststatus=2
 
+set t_Co=256
+
+let g:Powerline_symbols = 'unicode'
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -48,6 +52,7 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
 
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Powerline setup
@@ -198,5 +203,3 @@ filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 autocmd FileType bash setlocal et sta sw=4 sts=4
 
-set t_Co=256
-let g:Powerline_symbols = "fancy"

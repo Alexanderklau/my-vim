@@ -120,3 +120,7 @@ export CHEATPATH=/usr/local/lib/python2.7/dist-packages/cheat/cheatsheets
 if [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then
         source /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
 fi
+
+if [ -f $HOME/.local/lib/python2.7/site-packages/powerline/bindings/shell/powerline.sh ]; then
+        source $HOME/.local/lib/python2.7/site-packages/powerline/bindings/shell/powerline.sh
+fi

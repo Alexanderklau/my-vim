@@ -38,6 +38,7 @@ Plugin 'tpope/vim-pathogen'
 Plugin 'Lokaltog/powerline'
 " Plugin 'klen/python-mode'
 Plugin 'vim-scripts/bash-support.vim'
+
 Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
 Plugin 'scrooloose/syntastic'

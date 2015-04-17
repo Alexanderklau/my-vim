@@ -32,3 +32,6 @@ sudo apt-get install build-essential cmake
 sudo apt-get install python-dev
 cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --clang-completer
+
+10. choose right powerline.sh
+use correct powerline.sh, 否则命令行显示问题。

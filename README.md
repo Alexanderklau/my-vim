@@ -38,4 +38,4 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --clang-completer
 
 10. choose right powerline.sh
-use correct powerline.sh, 否则命令行显示问题。
+use correct powerline.sh, otherwise the command line will show garbled

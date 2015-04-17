@@ -7,13 +7,13 @@ python del powerline_setup
     
 
 " Powerline setup
- set term=xterm-256color
+" set term=xterm-256color
  set t_Co=256
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
  set laststatus=2
- set termencoding=utf-8
-" set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
- set guifont=PowerlineSymbols\ for\ Powerline
+" set termencoding=utf-8
+ set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
+" set guifont=PowerlineSymbols\ for\ Powerline
  set nocompatible
 " set guifont=Ubuntu\ Mono
  let g:Powerline_symbols = 'unicode'

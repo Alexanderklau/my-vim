@@ -36,12 +36,13 @@ Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-pathogen'
 Plugin 'Lokaltog/powerline'
-" Plugin 'klen/python-mode'
+Plugin 'klen/python-mode'
 Plugin 'vim-scripts/bash-support.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
+Plugin 'Valloric/YouCompleteMe'
 
 " Adding bundles
 Bundle 'taglist.vim'
@@ -194,3 +195,6 @@ set ts=4
 filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 autocmd FileType bash setlocal et sta sw=4 sts=4
+
+" Enable NertTree
+map <F9> :NERDTreeToggle<CR>

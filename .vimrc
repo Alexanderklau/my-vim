@@ -41,6 +41,7 @@ Plugin 'vim-scripts/bash-support.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
 Plugin 'scrooloose/syntastic'
+Plugin 'bling/vim-airline'
 
 " Adding bundles
 Bundle 'taglist.vim'

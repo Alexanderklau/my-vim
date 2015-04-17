@@ -22,6 +22,8 @@ Installation:
 6. then try 'vi test.pl'
 
 ## You need to install Vundle at the begining
+rm -rf ~/.vim/bundle/Vundle.vim
+git clone git@github.com:gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 7. Installing powerline
 http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin

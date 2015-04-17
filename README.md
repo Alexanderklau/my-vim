@@ -23,3 +23,6 @@ Installation:
 
 7. Installing powerline
 http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin
+
+8. Must installed plugin for python
+http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/

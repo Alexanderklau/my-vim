@@ -223,8 +223,6 @@ let g:pymode_doc_key = 'K'
 let g:pymode_lint = 1
 let g:pymode_lint_checker = "pyflakes,pep8"
 
-let g:pymode_lint_maxheight
-
 " Auto check on save
 let g:pymode_lint_write = 1
 

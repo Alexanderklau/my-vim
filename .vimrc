@@ -42,10 +42,11 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 " Adding bundles
 Bundle 'taglist.vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -200,6 +200,7 @@ autocmd FileType bash setlocal et sta sw=4 sts=4
 
 " Enable NertTree
 map <F9> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Configuration for python-mode
 " Python-mode

@@ -45,9 +45,12 @@ Plugin 'bling/vim-airline'
 " Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
 
-" Adding bundles
+" Adding bundles here
 Bundle 'taglist.vim'
 
+" For jedi-vim
+let g:jedi#use_splits_not_buffers = "left"
+let g:jedi#popup_select_first = 0
 
 " Adding for syntastic
 set statusline+=%#warningmsg#

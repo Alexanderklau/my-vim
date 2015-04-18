@@ -124,3 +124,5 @@ fi
 if [ -f $HOME/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh ]; then
         source $HOME/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi
+
+export TERM=xterm-256color

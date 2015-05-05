@@ -117,8 +117,7 @@ fi
 export CHEATCOLORS=true
 export CHEATPATH=/usr/local/lib/python2.7/dist-packages/cheat/cheatsheets
 
-if [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then
-        source /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
+if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh ]; then
+    source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi
-
 export TERM=xterm-256color

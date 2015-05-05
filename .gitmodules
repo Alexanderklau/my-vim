@@ -7,3 +7,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/bash-support.vim"]
+    path = bundle/bash-support
+	url = https://github.com/vim-scripts/bash-support.vim.git
+[submodule "bundle/taglist.vim"]
+    path = bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git

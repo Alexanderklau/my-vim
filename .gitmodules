@@ -34,6 +34,3 @@
 [submodule "bundle/vim-perl/"]
     path = bundle/vim-perl
 	url = https://github.com/vim-perl/vim-perl.git
-[submodule "bash-support.vim"]
-	path = bash-support.vim
-	url = /home/jzhu/.vim/bundle/bash-support.vim

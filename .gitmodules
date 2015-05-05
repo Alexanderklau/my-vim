@@ -7,12 +7,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/bash-support.vim"]
-    path = bundle/bash-support.vim
-	url = https://github.com/vim-scripts/bash-support.vim.git
-[submodule "bundle/taglist.vim"]
-    path = bundle/taglist.vim
-	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/jedi-vim/"]
     path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git

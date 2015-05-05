@@ -21,7 +21,8 @@ set -o nounset                              # Treat unset variables as an error
 
 sudo apt-get install python-pip git
 
-pip install --user git+git://github.com/Lokaltog/powerline
+# Install powerline
+sudo pip install --user git+git://github.com/Lokaltog/powerline
 
 cat <<EOF >> ~/.profile
 if [ -d "$HOME/.local/bin" ]; then
@@ -29,7 +30,7 @@ if [ -d "$HOME/.local/bin" ]; then
 fi
 EOF
 
-
+# Install fonts
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 sudo mv PowerlineSymbols.otf /usr/share/fonts/
 sudo fc-cache -vf

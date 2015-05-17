@@ -44,9 +44,13 @@ Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
 " Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
+" For Web dev
+Plugin 'vim-scripts/Emmet.vim'
 
 " Adding bundles here
 Bundle 'taglist.vim'
+
+
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"

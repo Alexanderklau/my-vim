@@ -46,3 +46,7 @@
 	path = bundle/bash-support.vim
 	url = https://github.com/vim-scripts/bash-support.vim.git
     ignore = dirty
+[submodule "bundle/Emmet.vim"]
+	path = bundle/Emmet.vim
+	url = https://github.com/vim-scripts/Emmet.vim.git
+    ignore = dirty

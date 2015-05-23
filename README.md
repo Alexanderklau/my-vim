@@ -39,3 +39,6 @@ cd ~/.vim/bundle/YouCompleteMe
 
 10. choose right powerline.sh
 use correct powerline.sh, otherwise the command line will show garbled
+
+11. manage 3rd party repos
+http://www.dogeye.net/2014/01/%E4%BD%BF%E7%94%A8git%E7%9A%84submodule%E5%8A%9F%E8%83%BD%E7%AE%A1%E7%90%86%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/

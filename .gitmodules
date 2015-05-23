@@ -1,36 +1,47 @@
 [submodule "bundle/Vundle.vim"]
     path = bundle/Vundle.vim
     url  = https://github.com/gmarik/Vundle.vim.git
+    ignore = dirty
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+    ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+    ignore = dirty
 [submodule "bundle/jedi-vim/"]
     path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+    ignore = dirty
 [submodule "bundle/powerline"]
     path = bundle/powerline
 	url = https://github.com/Lokaltog/powerline.git
+    ignore = dirty
 [submodule "bundle/supertab/"]
     path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+    ignore = dirty
 [submodule "bundle/vim-airline/"]
     path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
+    ignore = dirty
 [submodule "bundle/vim-fugitive"]
     path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+    ignore = dirty
 [submodule "bundle/vim-pathogen/"]
     path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+    ignore = dirty
 [submodule "bundle/vim-perl/"]
     path = bundle/vim-perl
 	url = https://github.com/vim-perl/vim-perl.git
+    ignore = dirty
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
+    ignore = dirty
 [submodule "bundle/bash-support.vim"]
 	path = bundle/bash-support.vim
 	url = https://github.com/vim-scripts/bash-support.vim.git

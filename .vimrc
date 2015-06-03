@@ -8,7 +8,7 @@ python del powerline_setup
 
 " Powerline setup
 " set term=xterm-256color
- set t_Co=256
+" set t_Co=256
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
  set laststatus=2
 " set termencoding=utf-8
@@ -24,7 +24,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
@@ -209,12 +209,12 @@ let gswitchyntastic_enable_python_checker = 1
 " For pydiction
 let g:pydiction_location = '/home/jzhu/.vim/pydiction-1.2.1/complete-dict'
 
-set nobackup
-set sw=4
-set ts=4
 filetype indent on
-autocmd FileType python setlocal et sta sw=4 sts=4
-autocmd FileType bash setlocal et sta sw=4 sts=4
+set nobackup
+set sw=2
+set ts=2
+autocmd FileType python setlocal et sta sw=2 sts=2
+autocmd FileType bash setlocal et sta sw=2 sts=2
 
 " Enable NertTree
 map <F9> :NERDTreeToggle<CR>

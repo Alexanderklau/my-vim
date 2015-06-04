@@ -18,6 +18,7 @@
     path = bundle/powerline
 	url = https://github.com/Lokaltog/powerline.git
     ignore = dirty
+    ignore = new commits
 [submodule "bundle/supertab/"]
     path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git

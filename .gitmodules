@@ -18,7 +18,7 @@
     path = bundle/powerline
 	url = https://github.com/Lokaltog/powerline.git
     ignore = dirty
-    ignore = new commits
+    ignore = all
 [submodule "bundle/supertab/"]
     path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
@@ -27,10 +27,12 @@
     path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
     ignore = dirty
+    ignore = all
 [submodule "bundle/vim-fugitive"]
     path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
     ignore = dirty
+    ignore = all
 [submodule "bundle/vim-pathogen/"]
     path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git

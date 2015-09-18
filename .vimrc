@@ -37,6 +37,7 @@ Plugin 'tpope/vim-pathogen'
 Plugin 'Lokaltog/powerline'
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-misc'
+Plugin 'vim-scripts/lua.vim'
 " Plugin 'klen/python-mode'
 Plugin 'vim-scripts/bash-support.vim'
 

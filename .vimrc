@@ -35,6 +35,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-pathogen'
 Plugin 'Lokaltog/powerline'
+Plugin 'xolox/vim-lua-ftplugin'
+Plugin 'xolox/vim-misc'
 " Plugin 'klen/python-mode'
 Plugin 'vim-scripts/bash-support.vim'
 

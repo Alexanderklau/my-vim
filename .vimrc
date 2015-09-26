@@ -50,6 +50,8 @@ Plugin 'davidhalter/jedi-vim'
 " For Web dev
 Plugin 'vim-scripts/Emmet.vim'
 Plugin 'moll/vim-node'
+Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
 
 " Adding bundles here
 Bundle 'taglist.vim'

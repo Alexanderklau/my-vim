@@ -49,6 +49,7 @@ Plugin 'bling/vim-airline'
 Plugin 'davidhalter/jedi-vim'
 " For Web dev
 Plugin 'vim-scripts/Emmet.vim'
+Plugin 'moll/vim-node'
 
 " Adding bundles here
 Bundle 'taglist.vim'

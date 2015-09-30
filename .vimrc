@@ -45,7 +45,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
 " Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
 " For Web dev
 Plugin 'vim-scripts/Emmet.vim'

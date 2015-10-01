@@ -89,3 +89,8 @@
 	url = https://github.com/moll/vim-node.git
     ignore = dirty
     ignore = all
+[submodule "bundle/python.vim/"]
+	path = bundle/python.vim
+	url = https://github.com/vim-scripts/python.vim.git
+    ignore = dirty
+    ignore = all

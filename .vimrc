@@ -39,6 +39,7 @@ Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-misc'
 Plugin 'vim-scripts/lua.vim'
 " Plugin 'klen/python-mode'
+Plugin 'vim-scripts/python.vim'
 Plugin 'vim-scripts/bash-support.vim'
 
 Plugin 'tpope/vim-fugitive'

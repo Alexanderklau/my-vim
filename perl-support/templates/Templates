@@ -2,13 +2,13 @@
 §  User Macros
 § ==========================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
+SetMacro( 'AUTHOR',      'James Zhu' )
 SetMacro( 'AUTHORREF',   '' )
-SetMacro( 'COMPANY',     '' )
+SetMacro( 'COMPANY',     'Open Source' )
 SetMacro( 'COPYRIGHT',   '' )
-SetMacro( 'EMAIL',       '' )
-SetMacro( 'LICENSE',     '' )
-SetMacro( 'ORGANIZATION','' )
+SetMacro( 'EMAIL',       'zhujian0805@gmail.com' )
+SetMacro( 'LICENSE',     'N/A' )
+SetMacro( 'ORGANIZATION','ZJ' )
 
 SetStyle( 'default' )
 

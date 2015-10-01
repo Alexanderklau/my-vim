@@ -53,8 +53,7 @@ Plugin 'moll/vim-node'
 Plugin 'pangloss/vim-javascript'
 Plugin 'jelera/vim-javascript-syntax'
 
-" Adding bundles here
-Bundle 'taglist.vim'
+Bundle 'vim-scripts/taglist.vim'
 
 
 

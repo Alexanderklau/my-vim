@@ -20,7 +20,7 @@ python del powerline_setup
 " let g:Powerline_symbols = 'fancy'
 
 set nocompatible              " be iMproved, required
-filetype off                  " required
+" filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -270,3 +270,6 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " Don't autofold code
 let g:pymode_folding = 0
+
+
+" Bash

@@ -273,6 +273,3 @@ let g:pymode_folding = 0
 
 
 " Bash
-let g:BASH_AUTHOR = 'Your Name'
-let g:BASH_Email        = 'my@email.com'
-let g:BASH_Company      = 'Company Name'

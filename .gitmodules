@@ -95,8 +95,8 @@
     ignore = dirty
     ignore = all
 
-[submodule "bundle/c.vim/"]
-	path = bundle/c.vim/
+[submodule "bundle/c.vim"]
+	path = bundle/c.vim
 	url = https://github.com/vim-scripts/c.vim.git
     ignore = dirty
     ignore = all

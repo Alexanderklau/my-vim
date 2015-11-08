@@ -57,6 +57,9 @@ Plugin 'jelera/vim-javascript-syntax'
 Bundle 'vim-scripts/taglist.vim'
 
 
+" C
+Plugin 'vim-scripts/c.vim'
+
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"

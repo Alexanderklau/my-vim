@@ -226,6 +226,8 @@ autocmd FileType python setlocal et sta sw=2 sts=2
 autocmd FileType bash setlocal et sta sw=2 sts=2
 autocmd FileType perl setlocal et sta sw=2 sts=2
 autocmd FileType java setlocal et sta sw=2 sts=2
+autocmd FileType c setlocal et sta sw=2 sts=2
+autocmd FileType ruby setlocal et sta sw=2 sts=2
 
 " Enable NertTree
 map <F9> :NERDTreeToggle<CR>

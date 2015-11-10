@@ -93,6 +93,9 @@ alias gitup='git diff; msg=`git status -s`;git add .; git commit -m "$msg"; git 
 alias gitdn='git pull; git status'
 alias gits='git status'
 
+# read man with vi
+vman() { vim <(man $1); }
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'

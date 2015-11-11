@@ -111,7 +111,7 @@ fi
 
 # Adding python environments, put the PYTHONPATH and other environment variables into this
 # file
-if [ -f ~/.python_env]; then
+if [ -f ~/.python_env ]; then
     . ~/.python_env
 fi
 

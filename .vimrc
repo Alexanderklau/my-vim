@@ -220,14 +220,14 @@ let g:pydiction_location = '/home/jzhu/.vim/pydiction-1.2.1/complete-dict'
 
 filetype indent on
 set nobackup
-set sw=2
-set ts=2
-autocmd FileType python setlocal et sta sw=2 sts=2
-autocmd FileType bash setlocal et sta sw=2 sts=2
-autocmd FileType perl setlocal et sta sw=2 sts=2
-autocmd FileType java setlocal et sta sw=2 sts=2
-autocmd FileType c setlocal et sta sw=2 sts=2
-autocmd FileType ruby setlocal et sta sw=2 sts=2
+set sw=4
+set ts=4
+autocmd FileType python setlocal et sta sw=4 sts=4
+autocmd FileType bash setlocal et sta sw=4 sts=4
+autocmd FileType perl setlocal et sta sw=4 sts=4
+autocmd FileType java setlocal et sta sw=4 sts=4
+autocmd FileType c setlocal et sta sw=4 sts=4
+autocmd FileType ruby setlocal et sta sw=4 sts=4
 
 " Enable NertTree
 map <F9> :NERDTreeToggle<CR>

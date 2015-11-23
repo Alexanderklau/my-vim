@@ -105,3 +105,8 @@
 	url = https://github.com/klen/python-mode.git
     ignore = dirty
     ignore = all
+[submodule "bundle/pydiction/"]
+	path = bundle/pydiction
+	url = https://github.com/rkulla/pydiction.git
+    ignore = dirty
+    ignore = all

@@ -46,6 +46,7 @@ Plugin 'vim-scripts/python.vim'
 Plugin 'vim-scripts/bash-support.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
+Plugin 'rkulla/pydiction'
 " Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 " Plugin 'Valloric/YouCompleteMe'
@@ -211,7 +212,8 @@ let Tlist_Compact_Format = 1
 let gswitchyntastic_enable_perl_checker = 1
 let gswitchyntastic_enable_python_checker = 1
 " For pydiction
-let g:pydiction_location = '/home/jzhu/.vim/pydiction-1.2.1/complete-dict'
+let g:pydiction_location = '/home/jzhu/.vim/bundle/pydiction/complete-dict'
+let g:pydiction_menu_height = 4
 
 filetype indent on
 set nobackup

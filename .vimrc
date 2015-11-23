@@ -272,7 +272,7 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 
 " Setting for Python
-set textwidth=79  " lines longer than 79 columns will be broken
+set textwidth=100  " lines longer than 79 columns will be broken
 set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
 set tabstop=4     " a hard TAB displays as 4 columns
 set expandtab     " insert spaces when hitting TABs

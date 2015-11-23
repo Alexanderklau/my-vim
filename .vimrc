@@ -38,7 +38,7 @@ Plugin 'Lokaltog/powerline'
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-misc'
 Plugin 'vim-scripts/lua.vim'
-" Plugin 'klen/python-mode'
+Plugin 'klen/python-mode'
 Plugin 'vim-scripts/python.vim'
 Plugin 'vim-scripts/bash-support.vim'
 
@@ -255,7 +255,7 @@ let g:pymode_doc_key = 'K'
 
 "Linting
 let g:pymode_lint = 1
-let g:pymode_lint_checker = "pyflakes,pep8"
+let g:pymode_lint_checker = "pylint,pyflakes,pep8"
 
 " Auto check on save
 let g:pymode_lint_write = 1

@@ -1,10 +1,13 @@
 set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-" Always show statusline
 
+" Always show statusline
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
-    
+
+" Global setting
+filetype on
+filetype plugin on
 
 " Powerline setup
 " set term=xterm-256color
@@ -41,7 +44,6 @@ Plugin 'vim-scripts/lua.vim'
 Plugin 'klen/python-mode'
 Plugin 'vim-scripts/python.vim'
 Plugin 'vim-scripts/bash-support.vim'
-
 Plugin 'tpope/vim-fugitive'
 Plugin 'ervandew/supertab'
 " Plugin 'scrooloose/syntastic'
@@ -53,13 +55,10 @@ Plugin 'vim-scripts/Emmet.vim'
 Plugin 'moll/vim-node'
 Plugin 'pangloss/vim-javascript'
 Plugin 'jelera/vim-javascript-syntax'
-
 Bundle 'vim-scripts/taglist.vim'
-
 
 " C
 Plugin 'vim-scripts/c.vim'
-
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"
@@ -188,10 +187,6 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-" Global setting
-filetype on
-filetype plugin on
-
 " For JS
 au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 
@@ -273,8 +268,15 @@ let g:pymode_syntax_all = 1
 let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
+
+" Setting for Python
+set textwidth=79  " lines longer than 79 columns will be broken
+set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4     " a hard TAB displays as 4 columns
+set expandtab     " insert spaces when hitting TABs
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
+set shiftround    " round indent to multiple of 'shiftwidth'
+set autoindent    " align the new line indent with the previous line
+
 " Don't autofold code
-let g:pymode_folding = 0
-
-
-" Bash
+let g:pymode_folding = 1

@@ -63,7 +63,7 @@ Plugin 'vim-scripts/c.vim'
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"
-let g:jedi#popup_select_first = 0
+let g:jedi#popup_select_first = 1
 
 " Adding for syntastic
 set statusline+=%#warningmsg#

@@ -51,6 +51,7 @@ Plugin 'rkulla/pydiction'
 Plugin 'bling/vim-airline'
 " Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'jmcantrell/vim-virtualenv'
 " For Web dev
 Plugin 'vim-scripts/Emmet.vim'
 Plugin 'moll/vim-node'

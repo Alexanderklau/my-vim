@@ -280,4 +280,4 @@ set shiftround    " round indent to multiple of 'shiftwidth'
 set autoindent    " align the new line indent with the previous line
 
 " Don't autofold code
-let g:pymode_folding = 1
+let g:pymode_folding = 0

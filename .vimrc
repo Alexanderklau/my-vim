@@ -11,27 +11,21 @@ filetype plugin on
 
 " Powerline setup
 " set term=xterm-256color
-" set t_Co=256
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
- set laststatus=2
-" set termencoding=utf-8
- set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
-" set guifont=PowerlineSymbols\ for\ Powerline
- set nocompatible
+set t_Co=256
+set laststatus=2
+set termencoding=utf-8
 " set guifont=Ubuntu\ Mono
- let g:Powerline_symbols = 'unicode'
+set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+let g:Powerline_symbols = 'unicode'
 " let g:Powerline_symbols = 'fancy'
 
-set nocompatible              " be iMproved, required
-" filetype off                  " required
-
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
- call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
 " let Vundle manage Vundle, required
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-perl/vim-perl'
 Plugin 'mileszs/ack.vim'
@@ -59,7 +53,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'jelera/vim-javascript-syntax'
 Bundle 'vim-scripts/taglist.vim'
 
-" C
+" For C
 Plugin 'vim-scripts/c.vim'
 
 " For jedi-vim
@@ -76,7 +70,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_perl_checker = 1
 
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -89,20 +82,6 @@ filetype plugin indent on    " required
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2008 Dec 17
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -125,10 +104,6 @@ set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 
-" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
-" let &guioptions = substitute(&guioptions, "t", "", "g")
-
-" Don't use Ex mode, use Q for formatting
 map Q gq
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
@@ -212,6 +187,7 @@ let Tlist_WinWidth = 30
 let Tlist_Compact_Format = 1
 let gswitchyntastic_enable_perl_checker = 1
 let gswitchyntastic_enable_python_checker = 1
+
 " For pydiction
 let g:pydiction_location = '/home/jzhu/.vim/bundle/pydiction/complete-dict'
 let g:pydiction_menu_height = 8
@@ -231,40 +207,20 @@ autocmd FileType ruby setlocal et sta sw=4 sts=4
 map <F9> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" Configuration for python-mode
-" Python-mode
-" Activate rope
-" Keys:
-" K             Show python docs
-" <Ctrl-Space>  Rope autocomplete
-" <Ctrl-c>g     Rope goto definition
-" <Ctrl-c>d     Rope show documentation
-" <Ctrl-c>f     Rope find occurrences
-" <Leader>b     Set, unset breakpoint (g:pymode_breakpoint enabled)
-" [[            Jump on previous class or function (normal, visual, operator modes)
-" ]]            Jump on next class or function (normal, visual, operator modes)
-" [M            Jump on previous class or method (normal, visual, operator modes)
-" ]M            Jump on next class or method (normal, visual, operator modes)
+" For python-mode
 let g:pymode_rope = 1
-
-" Documentation
 let g:pymode_doc = 1
 let g:pymode_doc_key = 'K'
-
 "Linting
 let g:pymode_lint = 1
 let g:pymode_lint_checker = "pylint,pyflakes,pep8"
-
 " Auto check on save
 let g:pymode_lint_write = 1
-
 " Support virtualenv
 let g:pymode_virtualenv = 1
-
 " Enable breakpoints plugin
 let g:pymode_breakpoint = 1
 let g:pymode_breakpoint_bind = '<leader>b'
-
 " syntax highlighting
 let g:pymode_syntax = 1
 let g:pymode_syntax_all = 1

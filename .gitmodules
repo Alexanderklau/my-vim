@@ -110,8 +110,8 @@
 	url = https://github.com/rkulla/pydiction.git
     ignore = dirty
     ignore = all
-[submodule "bundle/vim-virtualenv/"]
-	path = bundle/vim-virtualenv/
+[submodule "bundle/vim-virtualenv"]
+	path = bundle/vim-virtualenv
 	url = https://github.com/jmcantrell/vim-virtualenv.git
     ignore = dirty
     ignore = all

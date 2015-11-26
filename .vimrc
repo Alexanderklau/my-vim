@@ -53,6 +53,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'jelera/vim-javascript-syntax'
 Bundle 'vim-scripts/taglist.vim'
 
+" For python check
+Plugin 'nvie/vim-flake8'
+Plugin 'vim-scripts/pylint.vim'
+
 " For C
 Plugin 'vim-scripts/c.vim'
 

@@ -115,3 +115,8 @@
 	url = https://github.com/jmcantrell/vim-virtualenv.git
     ignore = dirty
     ignore = all
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+    ignore = dirty
+    ignore = all

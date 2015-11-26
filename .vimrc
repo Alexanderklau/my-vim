@@ -70,6 +70,8 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_perl_checker = 1
 let gswitchyntastic_python_checkers = ['pylint', 'pep8']
+hi SpellBad ctermfg=001 ctermbg=251 guifg=#000080 guibg=#ffffff
+hi SpellCap ctermfg=001 ctermbg=251 guifg=#000080 guibg=#ffffff
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

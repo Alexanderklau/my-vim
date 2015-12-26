@@ -60,6 +60,9 @@ Plugin 'vim-scripts/pylint.vim'
 " For C
 Plugin 'vim-scripts/c.vim'
 
+" For ruby and ror
+Bundle 'vim-ruby/vim-ruby'
+
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"
 let g:jedi#popup_select_first = 1

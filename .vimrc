@@ -62,6 +62,7 @@ Plugin 'vim-scripts/c.vim'
 
 " For ruby and ror
 Bundle 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"

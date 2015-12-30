@@ -64,6 +64,10 @@ Plugin 'vim-scripts/c.vim'
 Bundle 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 
+" Plugin for Erlang
+Plugin 'oscarh/vimerl'
+
+
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"
 let g:jedi#popup_select_first = 1

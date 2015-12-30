@@ -67,6 +67,10 @@ Plugin 'tpope/vim-rails'
 " Plugin for Erlang
 Plugin 'oscarh/vimerl'
 
+" Plugin for Go
+Plugin 'fatih/vim-go'
+Plugin 'jnwhiteh/vim-golang'
+
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"

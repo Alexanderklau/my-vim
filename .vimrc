@@ -71,6 +71,9 @@ Plugin 'oscarh/vimerl'
 Plugin 'fatih/vim-go'
 Plugin 'jnwhiteh/vim-golang'
 
+" For ansible yaml
+Bundle 'chase/vim-ansible-yaml'
+
 
 " For jedi-vim
 let g:jedi#use_splits_not_buffers = "left"

@@ -260,3 +260,6 @@ set autoindent    " align the new line indent with the previous line
 
 " Don't autofold code
 let g:pymode_folding = 0
+
+" Support for yaml/yml files
+au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/plugin/yaml.vim
